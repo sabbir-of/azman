@@ -7,35 +7,35 @@
    CSS Variables & Root
    ============================================ */
 :root {
-    /* Colors - Blue/Teal Tech Theme */
-    --primary-color: #0ea5e9;
-    --primary-dark: #0284c7;
-    --primary-light: #38bdf8;
-    --secondary-color: #14b8a6;
-    --accent-color: #06b6d4;
+    /* Colors - Purple/Cyan Gradient Theme (kawsher.me) */
+    --primary-color: #7a00df;
+    --primary-dark: #5c00a8;
+    --primary-light: #9b30ff;
+    --secondary-color: #31cdcf;
+    --accent-color: #4721fb;
 
     /* Neutral Colors */
-    --bg-primary: #0f172a;
-    --bg-secondary: #1e293b;
-    --bg-tertiary: #334155;
-    --bg-card: #1e293b;
+    --bg-primary: #0a0a1a;
+    --bg-secondary: #12122a;
+    --bg-tertiary: #1e1e3a;
+    --bg-card: #12122a;
 
     /* Text Colors */
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --text-muted: #64748b;
+    --text-primary: #ffffff;
+    --text-secondary: #b8b8d0;
+    --text-muted: #7a7a9a;
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     --gradient-dark: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
-    --gradient-hero: linear-gradient(135deg, rgba(14, 165, 233, 0.1) 0%, rgba(20, 184, 166, 0.1) 100%);
+    --gradient-hero: linear-gradient(135deg, rgba(122, 0, 223, 0.1) 0%, rgba(49, 205, 207, 0.1) 100%);
 
     /* Shadows */
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
     --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
     --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.3);
     --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.4);
-    --shadow-glow: 0 0 40px rgba(14, 165, 233, 0.3);
+    --shadow-glow: 0 0 40px rgba(122, 0, 223, 0.3);
 
     /* Spacing */
     --section-padding: 100px 0;
@@ -294,7 +294,7 @@ input, textarea {
 }
 
 .navbar.scrolled {
-    background: rgba(15, 23, 42, 0.95);
+    background: rgba(10, 10, 26, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: var(--shadow-md);
     padding: 10px 0;
@@ -1089,7 +1089,7 @@ input, textarea {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(14, 165, 233, 0.9);
+    background: rgba(122, 0, 223, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1209,7 +1209,7 @@ input, textarea {
 .service-icon {
     width: 70px;
     height: 70px;
-    background: rgba(14, 165, 233, 0.1);
+    background: rgba(122, 0, 223, 0.1);
     border-radius: var(--radius-lg);
     display: flex;
     align-items: center;
@@ -1614,7 +1614,7 @@ input, textarea {
 .contact-icon {
     width: 50px;
     height: 50px;
-    background: rgba(14, 165, 233, 0.1);
+    background: rgba(122, 0, 223, 0.1);
     border-radius: var(--radius-lg);
     display: flex;
     align-items: center;
@@ -1707,7 +1707,7 @@ input, textarea {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+    box-shadow: 0 0 0 3px rgba(122, 0, 223, 0.1);
 }
 
 .form-group textarea {
