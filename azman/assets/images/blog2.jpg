@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#0f172a"/>
+  <rect x="100" y="50" width="400" height="250" rx="15" fill="#1e293b"/>
+  <text x="300" y="100" font-family="monospace" font-size="16" fill="#a855f7" text-anchor="middle">Feature: BDD Testing</text>
+  <text x="150" y="150" font-family="monospace" font-size="14" fill="#22c55e">Given</text>
+  <text x="220" y="150" font-family="monospace" font-size="14" fill="#94a3b8">I am logged in</text>
+  <text x="150" y="180" font-family="monospace" font-size="14" fill="#0ea5e9">When</text>
+  <text x="220" y="180" font-family="monospace" font-size="14" fill="#94a3b8">I click submit</text>
+  <text x="150" y="210" font-family="monospace" font-size="14" fill="#14b8a6">Then</text>
+  <text x="220" y="210" font-family="monospace" font-size="14" fill="#94a3b8">I see success</text>
+  <rect x="120" y="240" width="360" height="40" rx="5" fill="#2EAD33" opacity="0.3"/>
+  <text x="300" y="265" font-family="Arial" font-size="14" fill="#22c55e" text-anchor="middle">Playwright + Cucumber</text>
+  <text x="300" y="360" font-family="Arial" font-size="18" fill="#f8fafc" text-anchor="middle" font-weight="bold">BDD Automation with Playwright</text>
+</svg>

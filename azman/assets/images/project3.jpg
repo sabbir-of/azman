@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#0f172a"/>
+  <rect x="40" y="40" width="520" height="280" rx="10" fill="#1e293b"/>
+  <circle cx="80" cy="70" r="10" fill="#ef4444"/>
+  <circle cx="110" cy="70" r="10" fill="#f59e0b"/>
+  <circle cx="140" cy="70" r="10" fill="#22c55e"/>
+  <rect x="60" y="100" width="480" height="200" rx="5" fill="#0f172a"/>
+  <text x="80" y="135" font-family="monospace" font-size="13" fill="#f59e0b">name: E2E Tests</text>
+  <text x="80" y="160" font-family="monospace" font-size="13" fill="#94a3b8">on: [push, pull_request]</text>
+  <text x="80" y="190" font-family="monospace" font-size="13" fill="#f59e0b">jobs:</text>
+  <text x="100" y="215" font-family="monospace" font-size="13" fill="#0ea5e9">test:</text>
+  <text x="120" y="240" font-family="monospace" font-size="13" fill="#94a3b8">runs-on: ubuntu-latest</text>
+  <text x="120" y="265" font-family="monospace" font-size="13" fill="#14b8a6">- run: npx playwright test</text>
+  <text x="300" y="360" font-family="Arial" font-size="18" fill="#f59e0b" text-anchor="middle" font-weight="bold">CI/CD Pipeline Integration</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#0f172a"/>
+  <rect x="100" y="80" width="400" height="220" rx="15" fill="#1e293b"/>
+  <!-- Pipeline visualization -->
+  <circle cx="170" cy="180" r="30" fill="#334155" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="170" y="185" font-family="Arial" font-size="12" fill="#0ea5e9" text-anchor="middle">Build</text>
+  <line x1="200" y1="180" x2="240" y2="180" stroke="#0ea5e9" stroke-width="2"/>
+  <circle cx="270" cy="180" r="30" fill="#334155" stroke="#14b8a6" stroke-width="2"/>
+  <text x="270" y="185" font-family="Arial" font-size="12" fill="#14b8a6" text-anchor="middle">Test</text>
+  <line x1="300" y1="180" x2="340" y2="180" stroke="#14b8a6" stroke-width="2"/>
+  <circle cx="370" cy="180" r="30" fill="#334155" stroke="#f59e0b" stroke-width="2"/>
+  <text x="370" y="185" font-family="Arial" font-size="12" fill="#f59e0b" text-anchor="middle">Deploy</text>
+  <line x1="400" y1="180" x2="440" y2="180" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="470" cy="180" r="30" fill="#22c55e" opacity="0.3"/>
+  <text x="470" y="185" font-family="Arial" font-size="20" fill="#22c55e" text-anchor="middle">✓</text>
+  <text x="300" y="260" font-family="Arial" font-size="14" fill="#94a3b8" text-anchor="middle">Automated Testing Pipeline</text>
+  <text x="300" y="360" font-family="Arial" font-size="18" fill="#f8fafc" text-anchor="middle" font-weight="bold">CI/CD Best Practices for QA</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#0f172a"/>
+  <rect x="40" y="40" width="520" height="280" rx="10" fill="#1e293b"/>
+  <circle cx="80" cy="70" r="10" fill="#ef4444"/>
+  <circle cx="110" cy="70" r="10" fill="#f59e0b"/>
+  <circle cx="140" cy="70" r="10" fill="#22c55e"/>
+  <rect x="60" y="100" width="480" height="200" rx="5" fill="#0f172a"/>
+  <text x="80" y="140" font-family="monospace" font-size="14" fill="#69D3A7">describe('Crowdfundly Tests', () => {</text>
+  <text x="100" y="170" font-family="monospace" font-size="14" fill="#94a3b8">it('should create campaign', () => {</text>
+  <text x="120" y="200" font-family="monospace" font-size="14" fill="#0ea5e9">cy.visit('/campaigns/new');</text>
+  <text x="120" y="230" font-family="monospace" font-size="14" fill="#0ea5e9">cy.get('[data-cy=title]').type('My Campaign');</text>
+  <text x="120" y="260" font-family="monospace" font-size="14" fill="#14b8a6">cy.get('[data-cy=submit]').click();</text>
+  <text x="100" y="290" font-family="monospace" font-size="14" fill="#94a3b8">});</text>
+  <text x="300" y="360" font-family="Arial" font-size="18" fill="#69D3A7" text-anchor="middle" font-weight="bold">Crowdfundly UI Automation</text>
+</svg>

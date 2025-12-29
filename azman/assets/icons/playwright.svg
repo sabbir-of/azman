@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="playwrightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2EAD33"/>
+      <stop offset="50%" style="stop-color:#D65348"/>
+      <stop offset="100%" style="stop-color:#E5A03D"/>
+    </linearGradient>
+  </defs>
+  <circle cx="24" cy="24" r="22" fill="#1e293b"/>
+  <path d="M14 16l10 8-10 8V16z" fill="#2EAD33"/>
+  <path d="M22 16l10 8-10 8V16z" fill="#D65348"/>
+  <circle cx="30" cy="24" r="6" fill="#E5A03D"/>
+</svg>

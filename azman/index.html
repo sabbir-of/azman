@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Azman Sabbir - Lead Automation Engineer & SQA Specialist. Expert in Playwright, TypeScript, Cypress, and CI/CD automation testing.">
+    <meta name="keywords" content="Automation Engineer, SQA, Playwright, TypeScript, Cypress, QA Testing, CI/CD, Bangladesh">
+    <meta name="author" content="Azman Sabbir">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Azman Sabbir - Lead Automation Engineer">
+    <meta property="og:description" content="Building reliable, scalable UI automation frameworks for modern web applications.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://azmansabbir.com">
+
+    <title>Azman Sabbir | Lead Automation Engineer & SQA Specialist</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="code-loader">
+                <span>{</span>
+                <span class="loading-text">Loading</span>
+                <span>}</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">Azman</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-social">
+                <a href="https://www.linkedin.com/in/sabbir-of" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:sabbir.of@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-particles" id="particles"></div>
+            <div class="hero-gradient"></div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <span class="hero-greeting">Hello, I'm</span>
+                <h1 class="hero-title">Azman Sabbir</h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text">Lead Automation Engineer | Playwright & TypeScript Specialist</span>
+                </h2>
+                <p class="hero-description">
+                    Building reliable, scalable UI automation frameworks for modern web applications.
+                </p>
+
+                <div class="hero-cta">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i>
+                        View Portfolio
+                    </a>
+                    <a href="assets/Azman_Sabbir_Resume.pdf" class="btn btn-secondary" download>
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+
+                <div class="hero-tech-stack">
+                    <span class="tech-label">Tech Stack:</span>
+                    <div class="tech-icons">
+                        <div class="tech-icon" title="Playwright">
+                            <img src="assets/icons/playwright.svg" alt="Playwright">
+                        </div>
+                        <div class="tech-icon" title="TypeScript">
+                            <img src="assets/icons/typescript.svg" alt="TypeScript">
+                        </div>
+                        <div class="tech-icon" title="Cypress">
+                            <img src="assets/icons/cypress.svg" alt="Cypress">
+                        </div>
+                        <div class="tech-icon" title="JavaScript">
+                            <img src="assets/icons/javascript.svg" alt="JavaScript">
+                        </div>
+                        <div class="tech-icon" title="CI/CD">
+                            <img src="assets/icons/cicd.svg" alt="CI/CD">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-bg"></div>
+                    <img src="assets/images/profile.jpg" alt="Azman Sabbir - Lead Automation Engineer" class="profile-img">
+                    <div class="hero-badge">
+                        <span class="badge-years">5+</span>
+                        <span class="badge-text">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-stats">
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <span class="stat-number" data-count="5">0</span>
+                <span class="stat-suffix">+</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <span class="stat-number" data-count="50">0</span>
+                <span class="stat-suffix">+</span>
+                <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                <span class="stat-number" data-count="30">0</span>
+                <span class="stat-suffix">+</span>
+                <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                <span class="stat-number" data-count="100">0</span>
+                <span class="stat-suffix">%</span>
+                <span class="stat-label">Client Satisfaction</span>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-down" aria-label="Scroll to About section">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Get To Know</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <img src="assets/images/about.jpg" alt="Azman Sabbir working">
+                        <div class="experience-badge">
+                            <i class="fas fa-code"></i>
+                            <span>5+ Years</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text" data-aos="fade-left">
+                    <h3 class="about-heading">Lead Automation Engineer & SQA Specialist</h3>
+                    <p class="about-description">
+                        I have <strong>five years of experience</strong> in Software Quality Assurance. For the last <strong>three years</strong>, I have focused on automation testing using <strong>Playwright</strong> and <strong>Cypress</strong>. I design scalable automation frameworks, integrate CI/CD pipelines, and ensure product quality through modern testing strategies.
+                    </p>
+
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <i class="fas fa-award"></i>
+                            <h4>Quality-First Mindset</h4>
+                            <p>Ensuring every product meets the highest quality standards</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-users"></i>
+                            <h4>Team Collaboration</h4>
+                            <p>Strong collaboration with developers & stakeholders</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-sync-alt"></i>
+                            <h4>Continuous Improvement</h4>
+                            <p>Agile methodology & continuous learning approach</p>
+                        </div>
+                    </div>
+
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Azman Sabbir</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">sabbir.of@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone:</span>
+                            <span class="info-value">+880303401678</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">Bangladesh</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Let's Talk
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Journey</span>
+                <h2 class="section-title">Resume</h2>
+            </div>
+
+            <div class="resume-content">
+                <!-- Experience -->
+                <div class="resume-column" data-aos="fade-right">
+                    <h3 class="resume-heading">
+                        <i class="fas fa-briefcase"></i>
+                        Experience
+                    </h3>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    February 2021 – Present
+                                </span>
+                                <h4 class="timeline-title">Lead Automation Engineer</h4>
+                                <span class="timeline-company">UnidevGo / JoulesLabs / Crowdfundly</span>
+                                <ul class="timeline-details">
+                                    <li>Designed and implemented Playwright automation frameworks</li>
+                                    <li>Integrated automation into CI/CD pipelines</li>
+                                    <li>Conducted UI, API & regression testing</li>
+                                    <li>Agile collaboration with development teams</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    May 2019 – January 2021
+                                </span>
+                                <h4 class="timeline-title">SQA Engineer</h4>
+                                <span class="timeline-company">Previous Organization</span>
+                                <ul class="timeline-details">
+                                    <li>Functional, UI, and API testing</li>
+                                    <li>Bug reporting and improvement suggestions</li>
+                                    <li>Direct collaboration with developers</li>
+                                    <li>Test case design and execution</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education & Skills -->
+                <div class="resume-column" data-aos="fade-left">
+                    <h3 class="resume-heading">
+                        <i class="fas fa-graduation-cap"></i>
+                        Education
+                    </h3>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2015
+                                </span>
+                                <h4 class="timeline-title">B.Sc. in Computer Science & Engineering</h4>
+                                <span class="timeline-company">Bangladesh (Not Completed)</span>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4 class="timeline-title">HSC (Science)</h4>
+                                <span class="timeline-company">GPA: 3.5 / 5.0</span>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4 class="timeline-title">SSC (Science)</h4>
+                                <span class="timeline-company">GPA: 4.0 / 5.0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="resume-heading skills-heading">
+                        <i class="fas fa-code"></i>
+                        Skills
+                    </h3>
+
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Playwright</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">TypeScript</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Cypress</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CI/CD</span>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">API Testing</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-download" data-aos="fade-up">
+                <a href="assets/Azman_Sabbir_Resume.pdf" class="btn btn-primary" download>
+                    <i class="fas fa-download"></i>
+                    Download Full Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Work</span>
+                <h2 class="section-title">Portfolio</h2>
+            </div>
+
+            <div class="portfolio-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="playwright">Playwright</button>
+                <button class="filter-btn" data-filter="cypress">Cypress</button>
+                <button class="filter-btn" data-filter="cicd">CI/CD</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="playwright" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/images/project1.jpg" alt="Playwright TypeScript Framework">
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-link" data-project="1">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Playwright</span>
+                            <h3 class="portfolio-title">Playwright TypeScript Framework</h3>
+                            <p class="portfolio-description">Built a comprehensive E2E testing framework using Playwright with TypeScript, implementing Page Object Model and custom utilities.</p>
+                            <div class="portfolio-tech">
+                                <span>Playwright</span>
+                                <span>TypeScript</span>
+                                <span>POM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="playwright" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/images/project2.jpg" alt="Playwright BDD Framework">
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-link" data-project="2">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Playwright</span>
+                            <h3 class="portfolio-title">Playwright BDD (Gherkin) Framework</h3>
+                            <p class="portfolio-description">Implemented BDD automation framework using Playwright with Cucumber and Gherkin syntax for better stakeholder communication.</p>
+                            <div class="portfolio-tech">
+                                <span>Playwright</span>
+                                <span>Cucumber</span>
+                                <span>Gherkin</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="cicd" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/images/project3.jpg" alt="CI/CD Pipeline Integration">
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-link" data-project="3">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">CI/CD</span>
+                            <h3 class="portfolio-title">CI/CD Automation Pipeline</h3>
+                            <p class="portfolio-description">Integrated automated testing into GitHub Actions and Jenkins pipelines with parallel execution and comprehensive reporting.</p>
+                            <div class="portfolio-tech">
+                                <span>GitHub Actions</span>
+                                <span>Jenkins</span>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="cypress" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/images/project4.jpg" alt="Crowdfundly UI Automation">
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-link" data-project="4">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Cypress</span>
+                            <h3 class="portfolio-title">UI Automation for Crowdfundly</h3>
+                            <p class="portfolio-description">Developed comprehensive UI test suite for Crowdfundly platform covering critical user journeys and payment flows.</p>
+                            <div class="portfolio-tech">
+                                <span>Cypress</span>
+                                <span>JavaScript</span>
+                                <span>API Testing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">What I Offer</span>
+                <h2 class="section-title">Services</h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="service-title">UI Automation Testing</h3>
+                    <p class="service-description">End-to-end UI automation using Playwright and Cypress for reliable, fast, and maintainable test suites.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Playwright & Cypress expertise</li>
+                        <li><i class="fas fa-check"></i> Cross-browser testing</li>
+                        <li><i class="fas fa-check"></i> Visual regression testing</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="service-title">Test Framework Design</h3>
+                    <p class="service-description">Custom automation framework design tailored to your project needs with scalable architecture.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Page Object Model</li>
+                        <li><i class="fas fa-check"></i> BDD with Gherkin</li>
+                        <li><i class="fas fa-check"></i> Modular architecture</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="service-title">CI/CD Integration</h3>
+                    <p class="service-description">Seamless integration of automated tests into your CI/CD pipelines for continuous quality assurance.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> GitHub Actions</li>
+                        <li><i class="fas fa-check"></i> Jenkins pipelines</li>
+                        <li><i class="fas fa-check"></i> Parallel execution</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3 class="service-title">Manual & Regression Testing</h3>
+                    <p class="service-description">Thorough manual testing and regression test planning to ensure complete coverage.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Test case design</li>
+                        <li><i class="fas fa-check"></i> Exploratory testing</li>
+                        <li><i class="fas fa-check"></i> Regression planning</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3 class="service-title">API Testing</h3>
+                    <p class="service-description">Comprehensive API testing using Postman and Playwright for reliable backend validation.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> REST API testing</li>
+                        <li><i class="fas fa-check"></i> Postman collections</li>
+                        <li><i class="fas fa-check"></i> Contract testing</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="service-title">QA Process Consultation</h3>
+                    <p class="service-description">Expert guidance on QA best practices, tool selection, and process optimization.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Process audit</li>
+                        <li><i class="fas fa-check"></i> Tool recommendations</li>
+                        <li><i class="fas fa-check"></i> Team training</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Client Feedback</span>
+                <h2 class="section-title">Testimonials</h2>
+            </div>
+
+            <div class="testimonials-slider" data-aos="fade-up">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">"Azman is extremely detail-oriented and reliable in automation testing. His frameworks have significantly improved our testing efficiency and reduced our regression time by 60%."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/images/client1.jpg" alt="Client">
+                            <div class="author-info">
+                                <h4>John Smith</h4>
+                                <span>CTO, TechCorp</span>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">"His Playwright frameworks significantly improved our release confidence. We can now deploy with certainty knowing our critical paths are thoroughly tested."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/images/client2.jpg" alt="Client">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>Product Manager, StartupXYZ</span>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">"Working with Azman transformed our QA process. His expertise in CI/CD integration and BDD frameworks brought structure and efficiency to our development workflow."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/images/client3.jpg" alt="Client">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <span>Engineering Lead, DevFlow</span>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-nav">
+                    <button class="testimonial-btn prev" aria-label="Previous testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots"></div>
+                    <button class="testimonial-btn next" aria-label="Next testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Latest Articles</span>
+                <h2 class="section-title">Blog</h2>
+            </div>
+
+            <div class="blog-grid">
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image">
+                        <img src="assets/images/blog1.jpg" alt="Playwright vs Cypress">
+                        <span class="blog-category">Comparison</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Dec 15, 2024</span>
+                            <span><i class="far fa-clock"></i> 8 min read</span>
+                        </div>
+                        <h3 class="blog-title">Playwright vs Cypress: Which One Should You Choose?</h3>
+                        <p class="blog-excerpt">A comprehensive comparison of two popular E2E testing frameworks to help you make the right choice for your project.</p>
+                        <a href="#" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="assets/images/blog2.jpg" alt="BDD Automation">
+                        <span class="blog-category">Tutorial</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Dec 10, 2024</span>
+                            <span><i class="far fa-clock"></i> 10 min read</span>
+                        </div>
+                        <h3 class="blog-title">BDD Automation with Playwright: Complete Guide</h3>
+                        <p class="blog-excerpt">Learn how to implement Behavior-Driven Development with Playwright and Cucumber for better collaboration.</p>
+                        <a href="#" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-image">
+                        <img src="assets/images/blog3.jpg" alt="CI/CD Best Practices">
+                        <span class="blog-category">Best Practices</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Dec 5, 2024</span>
+                            <span><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                        <h3 class="blog-title">CI/CD Best Practices for QA Engineers</h3>
+                        <p class="blog-excerpt">Essential CI/CD practices every QA engineer should know to build efficient automation pipelines.</p>
+                        <a href="#" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="blog-image">
+                        <img src="assets/images/blog4.jpg" alt="Maintainable Tests">
+                        <span class="blog-category">Tips</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Nov 28, 2024</span>
+                            <span><i class="far fa-clock"></i> 7 min read</span>
+                        </div>
+                        <h3 class="blog-title">Writing Maintainable Test Automation Code</h3>
+                        <p class="blog-excerpt">Best practices and patterns for writing clean, maintainable, and scalable test automation code.</p>
+                        <a href="#" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Common Questions</span>
+                <h2 class="section-title">FAQ</h2>
+            </div>
+
+            <div class="faq-container" data-aos="fade-up">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Why Playwright over Selenium?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Playwright offers several advantages over Selenium: built-in auto-waiting, native support for modern web features, faster execution, better cross-browser support with a single API, automatic screenshot and video capture, and excellent TypeScript support. It's designed for modern web applications and handles complex scenarios like iframes, shadow DOM, and network interception more elegantly.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you build custom automation frameworks?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! I specialize in designing and building custom automation frameworks tailored to specific project needs. This includes implementing Page Object Model, creating reusable utilities, setting up reporting mechanisms, and establishing coding standards. Each framework is designed for scalability, maintainability, and ease of use by the entire team.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can you integrate automation with CI/CD?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! CI/CD integration is a core part of my automation strategy. I have extensive experience with GitHub Actions, Jenkins, GitLab CI, and Azure DevOps. I set up pipelines that run tests automatically on every commit or PR, implement parallel execution for faster feedback, and configure comprehensive reporting and notifications.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you support BDD (Gherkin)?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, I have strong experience with BDD using Cucumber and Gherkin syntax. This approach improves collaboration between technical and non-technical stakeholders by writing tests in plain English. I implement BDD with both Playwright and Cypress, ensuring tests are readable, maintainable, and serve as living documentation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What testing types do you cover?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I cover a comprehensive range of testing types including: End-to-End UI testing, API testing (REST/GraphQL), Integration testing, Regression testing, Visual regression testing, Cross-browser testing, Mobile responsive testing, and Performance testing basics. My approach ensures complete coverage of critical user journeys and business flows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Work Together</h3>
+                    <p>Have a project in mind or need help with your QA automation? Feel free to reach out. I'm always open to discussing new opportunities.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Email</span>
+                                <a href="mailto:sabbir.of@gmail.com">sabbir.of@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Phone</span>
+                                <a href="tel:+880303401678">+880303401678</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Location</span>
+                                <p>Bangladesh</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/sabbir-of" target="_blank" rel="noopener">linkedin.com/in/sabbir-of</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/in/sabbir-of" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:sabbir.of@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/azmansabbir" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <span class="logo-bracket">&lt;</span>
+                        <span class="logo-text">Azman</span>
+                        <span class="logo-bracket">/&gt;</span>
+                    </a>
+                    <p>Lead Automation Engineer specializing in Playwright, TypeScript, and modern testing frameworks.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>UI Automation Testing</li>
+                        <li>Test Framework Design</li>
+                        <li>CI/CD Integration</li>
+                        <li>API Testing</li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> sabbir.of@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +880303401678</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Bangladesh</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Azman Sabbir. All Rights Reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/sabbir-of" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:sabbir.of@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/azmansabbir" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Project Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
