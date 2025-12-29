@@ -8,9 +8,9 @@
    ============================================ */
 :root {
     /* Colors - Light Theme (kawsher.me style) */
-    --primary-color: #32373c;
-    --primary-dark: #23282d;
-    --primary-light: #444444;
+    --primary-color: #e87532;
+    --primary-dark: #d06528;
+    --primary-light: #f59b5e;
     --secondary-color: #7a00df;
     --accent-color: #7a00df;
 
@@ -21,8 +21,8 @@
     --bg-card: #ffffff;
 
     /* Text Colors */
-    --text-primary: #000000;
-    --text-secondary: #313131;
+    --text-primary: #0f2943;
+    --text-secondary: #0f2943;
     --text-muted: #555555;
 
     /* Gradients */
@@ -154,7 +154,7 @@ input, textarea {
     display: block;
     width: 60px;
     height: 4px;
-    background: #32373c;
+    background: #e87532;
     margin: 15px auto 0;
     border-radius: var(--radius-full);
 }
@@ -192,7 +192,7 @@ input, textarea {
 }
 
 .btn-primary {
-    background: #32373c;
+    background: #e87532;
     color: white;
     box-shadow: var(--shadow-md);
 }
@@ -205,11 +205,11 @@ input, textarea {
 .btn-secondary {
     background: transparent;
     color: var(--text-primary);
-    border: 2px solid #32373c;
+    border: 2px solid #e87532;
 }
 
 .btn-secondary:hover {
-    background: #32373c;
+    background: #e87532;
     color: white;
     transform: translateY(-2px);
 }
@@ -347,7 +347,7 @@ input, textarea {
     left: 0;
     width: 0;
     height: 2px;
-    background: #32373c;
+    background: #e87532;
     transition: var(--transition-normal);
 }
 
@@ -587,7 +587,7 @@ input, textarea {
     left: 20px;
     width: 100%;
     height: 100%;
-    background: #32373c;
+    background: #e87532;
     border-radius: var(--radius-xl);
     opacity: 0.3;
 }
@@ -606,7 +606,7 @@ input, textarea {
     position: absolute;
     bottom: -20px;
     right: -20px;
-    background: #32373c;
+    background: #e87532;
     padding: 20px;
     border-radius: var(--radius-lg);
     text-align: center;
@@ -742,7 +742,7 @@ input, textarea {
     position: absolute;
     bottom: -20px;
     right: -20px;
-    background: #32373c;
+    background: #e87532;
     padding: 20px 30px;
     border-radius: var(--radius-lg);
     display: flex;
@@ -994,7 +994,7 @@ input, textarea {
 
 .skill-progress {
     height: 100%;
-    background: #32373c;
+    background: #e87532;
     border-radius: var(--radius-full);
     width: 0;
     transition: width 1s ease;
@@ -1192,7 +1192,7 @@ input, textarea {
     left: 0;
     width: 100%;
     height: 4px;
-    background: #32373c;
+    background: #e87532;
     transform: scaleX(0);
     transition: var(--transition-normal);
 }
@@ -1224,7 +1224,7 @@ input, textarea {
 }
 
 .service-card:hover .service-icon {
-    background: #32373c;
+    background: #e87532;
 }
 
 .service-card:hover .service-icon i {
@@ -1844,7 +1844,7 @@ input, textarea {
     right: 30px;
     width: 50px;
     height: 50px;
-    background: #32373c;
+    background: #e87532;
     border-radius: var(--radius-full);
     display: flex;
     align-items: center;
