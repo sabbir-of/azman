@@ -7,23 +7,23 @@
    CSS Variables & Root
    ============================================ */
 :root {
-    /* Colors - Purple/Cyan Gradient Theme (kawsher.me) */
-    --primary-color: #7a00df;
-    --primary-dark: #5c00a8;
-    --primary-light: #9b30ff;
-    --secondary-color: #31cdcf;
-    --accent-color: #4721fb;
+    /* Colors - Light Theme (kawsher.me style) */
+    --primary-color: #32373c;
+    --primary-dark: #23282d;
+    --primary-light: #444444;
+    --secondary-color: #7a00df;
+    --accent-color: #7a00df;
 
     /* Neutral Colors */
     --bg-primary: #ffffff;
-    --bg-secondary: #f5f5f7;
-    --bg-tertiary: #e5e5e7;
+    --bg-secondary: #f9f9f9;
+    --bg-tertiary: #eeeeee;
     --bg-card: #ffffff;
 
     /* Text Colors */
     --text-primary: #000000;
     --text-secondary: #313131;
-    --text-muted: #666666;
+    --text-muted: #555555;
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
@@ -154,7 +154,7 @@ input, textarea {
     display: block;
     width: 60px;
     height: 4px;
-    background: var(--gradient-primary);
+    background: #32373c;
     margin: 15px auto 0;
     border-radius: var(--radius-full);
 }
@@ -167,10 +167,10 @@ input, textarea {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 14px 28px;
-    font-size: 15px;
+    padding: 14px 32px;
+    font-size: 1.125em;
     font-weight: 600;
-    border-radius: var(--radius-md);
+    border-radius: 9999px;
     transition: var(--transition-normal);
     position: relative;
     overflow: hidden;
@@ -192,26 +192,26 @@ input, textarea {
 }
 
 .btn-primary {
-    background: var(--gradient-primary);
+    background: #32373c;
     color: white;
     box-shadow: var(--shadow-md);
 }
 
 .btn-primary:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-glow);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
 }
 
 .btn-secondary {
     background: transparent;
     color: var(--text-primary);
-    border: 2px solid var(--primary-color);
+    border: 2px solid #32373c;
 }
 
 .btn-secondary:hover {
-    background: var(--primary-color);
+    background: #32373c;
     color: white;
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 }
 
 /* ============================================
@@ -333,7 +333,7 @@ input, textarea {
 }
 
 .nav-link {
-    font-size: 15px;
+    font-size: 1.125em;
     font-weight: 500;
     color: var(--text-secondary);
     position: relative;
@@ -347,7 +347,7 @@ input, textarea {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--gradient-primary);
+    background: #32373c;
     transition: var(--transition-normal);
 }
 
@@ -382,7 +382,7 @@ input, textarea {
 .nav-social a:hover {
     background: var(--primary-color);
     color: white;
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 }
 
 .nav-toggle {
@@ -551,7 +551,7 @@ input, textarea {
     width: 44px;
     height: 44px;
     background: var(--bg-secondary);
-    border-radius: var(--radius-md);
+    border-radius: 9999px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -562,7 +562,7 @@ input, textarea {
 .tech-icon:hover {
     transform: translateY(-5px);
     border-color: var(--primary-color);
-    box-shadow: var(--shadow-glow);
+    box-shadow: var(--shadow-lg);
 }
 
 .tech-icon img {
@@ -587,7 +587,7 @@ input, textarea {
     left: 20px;
     width: 100%;
     height: 100%;
-    background: var(--gradient-primary);
+    background: #32373c;
     border-radius: var(--radius-xl);
     opacity: 0.3;
 }
@@ -606,7 +606,7 @@ input, textarea {
     position: absolute;
     bottom: -20px;
     right: -20px;
-    background: var(--gradient-primary);
+    background: #32373c;
     padding: 20px;
     border-radius: var(--radius-lg);
     text-align: center;
@@ -742,7 +742,7 @@ input, textarea {
     position: absolute;
     bottom: -20px;
     right: -20px;
-    background: var(--gradient-primary);
+    background: #32373c;
     padding: 20px 30px;
     border-radius: var(--radius-lg);
     display: flex;
@@ -807,7 +807,7 @@ input, textarea {
 }
 
 .about-card h4 {
-    font-size: 15px;
+    font-size: 1.125em;
     font-weight: 600;
     color: var(--text-primary);
     margin-bottom: 8px;
@@ -994,7 +994,7 @@ input, textarea {
 
 .skill-progress {
     height: 100%;
-    background: var(--gradient-primary);
+    background: #32373c;
     border-radius: var(--radius-full);
     width: 0;
     transition: width 1s ease;
@@ -1027,7 +1027,7 @@ input, textarea {
     color: var(--text-secondary);
     background: var(--bg-primary);
     border: 1px solid var(--bg-tertiary);
-    border-radius: var(--radius-md);
+    border-radius: 9999px;
     transition: var(--transition-normal);
 }
 
@@ -1192,7 +1192,7 @@ input, textarea {
     left: 0;
     width: 100%;
     height: 4px;
-    background: var(--gradient-primary);
+    background: #32373c;
     transform: scaleX(0);
     transition: var(--transition-normal);
 }
@@ -1224,7 +1224,7 @@ input, textarea {
 }
 
 .service-card:hover .service-icon {
-    background: var(--gradient-primary);
+    background: #32373c;
 }
 
 .service-card:hover .service-icon i {
@@ -1592,7 +1592,7 @@ input, textarea {
 }
 
 .contact-info > p {
-    font-size: 15px;
+    font-size: 1.125em;
     color: var(--text-secondary);
     margin-bottom: 35px;
     line-height: 1.7;
@@ -1636,7 +1636,7 @@ input, textarea {
 
 .contact-text a,
 .contact-text p {
-    font-size: 15px;
+    font-size: 1.125em;
     color: var(--text-primary);
     font-weight: 500;
 }
@@ -1654,7 +1654,7 @@ input, textarea {
     width: 45px;
     height: 45px;
     background: var(--bg-secondary);
-    border-radius: var(--radius-md);
+    border-radius: 9999px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1693,7 +1693,7 @@ input, textarea {
     padding: 14px 18px;
     background: var(--bg-primary);
     border: 1px solid var(--bg-tertiary);
-    border-radius: var(--radius-md);
+    border-radius: 9999px;
     color: var(--text-primary);
     transition: var(--transition-normal);
 }
@@ -1822,7 +1822,7 @@ input, textarea {
     width: 38px;
     height: 38px;
     background: var(--bg-primary);
-    border-radius: var(--radius-md);
+    border-radius: 9999px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1844,7 +1844,7 @@ input, textarea {
     right: 30px;
     width: 50px;
     height: 50px;
-    background: var(--gradient-primary);
+    background: #32373c;
     border-radius: var(--radius-full);
     display: flex;
     align-items: center;
@@ -1867,7 +1867,7 @@ input, textarea {
 
 .back-to-top:hover {
     transform: translateY(-5px);
-    box-shadow: var(--shadow-glow);
+    box-shadow: var(--shadow-lg);
 }
 
 /* ============================================
