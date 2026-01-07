@@ -469,7 +469,7 @@ function initFAQAccordion() {
 }
 
 /**
- * Contact Form
+ * Contact Form with EmailJS
  */
 function initContactForm() {
     const form = document.getElementById('contact-form');
@@ -495,19 +495,34 @@ function initContactForm() {
             return;
         }
 
-        // Simulate form submission
+        // Show loading state
         const submitBtn = form.querySelector('.btn-submit');
         const originalText = submitBtn.innerHTML;
         submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
         submitBtn.disabled = true;
 
-        // Simulate API call
-        setTimeout(() => {
-            showNotification('Message sent successfully! I will get back to you soon.', 'success');
-            form.reset();
-            submitBtn.innerHTML = originalText;
-            submitBtn.disabled = false;
-        }, 1500);
+        // EmailJS template parameters
+        const templateParams = {
+            from_name: data.name,
+            from_email: data.email,
+            subject: data.subject || 'New Contact Form Message',
+            message: data.message
+        };
+
+        // Send email using EmailJS
+        emailjs.send('service_2yk458e', 'template_f6wiff5', templateParams)
+            .then(function(response) {
+                showNotification('Message sent successfully! I will get back to you soon.', 'success');
+                form.reset();
+            })
+            .catch(function(error) {
+                showNotification('Failed to send message. Please try again later.', 'error');
+                console.error('EmailJS error:', error);
+            })
+            .finally(function() {
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            });
     });
 }
 
